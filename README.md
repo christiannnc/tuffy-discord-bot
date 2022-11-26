@@ -10,4 +10,4 @@ For example, if a user uses the command "!!ping" the bot will respond with "pong
 * The bot can add and remove user roles for server members that are being rate limited
 
 ## Built with
-This bot was built with JavaScript, Node.js, Express.js, and the Discord.js SDK
+This bot was built with JavaScript, Node.js, Express.js, and the Discord.js module
