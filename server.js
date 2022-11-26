@@ -1,17 +1,21 @@
-/* const express = require("express");
-const app = express()
+const express = require("express");
+const app = express();
 
-const http = require('http');
-const server = http.createServer(app)
+const http = require("http");
+const server = http.createServer(app);
 
-app.all('/', (req, res)=>{
-    res.setHeader('Content-Type', 'text/html');
-    res.write('<link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"> <style> body {font-family: "Roboto Condensed";font-size: 22px;} <p>Hosting Active</p>');
+app.all("/", (req, res) => {
+    res.setHeader("Content-Type", "text/html");
+    res.write(
+        '<link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"> <style> body {font-family: "Roboto Condensed";font-size: 22px;} <p>Hosting Active</p>'
+    );
     res.end();
- })
+});
 
- function keepAlive(){
-    server.listen(3000, ()=>{console.log("Server is online!")});
- }
+function keepAlive() {
+    server.listen(3000, () => {
+        console.log("Server is online!");
+    });
+}
 
-module.exports = keepAlive; */
+module.exports = keepAlive;
